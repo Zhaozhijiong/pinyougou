@@ -1,0 +1,117 @@
+.logo::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: -77px;
+    width: 57px;
+    height: 27px;
+    background: url(../images/sk.png) no-repeat top center;
+}
+
+.sk-list {
+    float: left;
+    line-height: 45px;
+}
+
+.sk-list ul li {
+    margin: 0 25px;
+    float: left;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+.sk-con {
+    float: left;
+    line-height: 45px;
+}
+
+.sk-con ul li {
+    float: left;
+    font-size: 14px;
+}
+
+.sk-con ul li a {
+    display: block;
+    padding: 0 25px;
+}
+
+.sk-con ul li:last-child a::after {
+    content: '\e920';
+    font-family: 'icomoon';
+    margin-left: 10px;
+}
+
+.sk-hd {
+    height: 120px;
+}
+
+.sk-bd {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.sk-bd ul li a {
+    display: block;
+    overflow: hidden;
+    float: left;
+    width: 280px;
+    height: 460px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid transparent;
+}
+
+.sk-bd ul li a:hover {
+    border: 2px solid #b1191a;
+}
+
+.text-box p {
+    text-align: left;
+    font-size: 14px;
+}
+
+.text-box .sk-price {
+    float: left;
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #e60012;
+}
+
+.text-box .price-del {
+    font-size: 14px;
+    font-weight: 600;
+    color: #e4e4e4;
+    text-decoration: line-through;
+}
+
+.stock {
+    height: 30px;
+    line-height: 30px;
+}
+
+.total {
+    display: inline-block;
+    overflow: hidden;
+    width: 135px;
+    height: 14px;
+    margin: 0 10px;
+    border: 1px solid #ed282e;
+    border-radius: 7px;
+}
+
+.total-shengyu {
+    width: 87%;
+    height: 14px;
+    background-color: #ed282e;
+}
+
+.buy {
+    height: 50px;
+    background-color: #b1191a;
+    font-size: 20px;
+    color: #fff;
+    line-height: 50px;
+    margin-top: 5px;
+}

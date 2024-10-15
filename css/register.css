@@ -1,0 +1,125 @@
+.header {
+    border-bottom: 2px solid #b1191a;
+}
+
+.registerarea {
+    height: 520px;
+    margin-top: 20px;
+    border: 2px solid #dfdfdf;
+}
+
+.register-hd {
+    height: 40px;
+    padding: 0 10px;
+    border-bottom: 1px solid #dfdfdf;
+    background-color: #ececec;
+    line-height: 40px;
+}
+
+.register-hd h5 {
+    float: left;
+    height: 100%;
+    font-size: 18px;
+    color: #333;
+}
+
+.login {
+    float: right;
+    font-size: 14px;
+}
+
+.login a {
+    color: #c81623;
+}
+
+.reg-form {
+    width: 550px;
+    height: 370px;
+    margin: 55px auto 0;
+}
+
+.reg-form ul li {
+    margin-bottom: 20px;
+}
+
+.reg-form label {
+    display: inline-block;
+    width: 88px;
+    font-size: 14px;
+    text-align: right;
+}
+
+.inp {
+    width: 240px;
+    height: 35px;
+    border: 1px solid #999;
+}
+
+.error-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    background: url(../images/error.png) no-repeat center;
+    vertical-align: middle;
+}
+
+.success-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    background: url(../images/success.png) no-repeat center;
+    vertical-align: middle;
+}
+
+.safe {
+    margin-left: 170px;
+}
+
+.safe em {
+    display: inline-block;
+    width: 35px;
+    height: 15px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+    color: #fff;
+}
+
+.ruo {
+    background-color: #de1111;
+}
+
+.zhong {
+    background-color: #f79100;
+}
+
+.qiang {
+    background-color: #40b83f;
+}
+
+
+.agree {
+    margin-left: 90px;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    display: block;
+    width: 200px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 70px;
+    background-color: #c81623;
+    font-size: 20px;
+    color: #fff;
+}
